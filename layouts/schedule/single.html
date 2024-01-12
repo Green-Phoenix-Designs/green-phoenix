@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="schedule">
+  <h2 class="em" id="schedule">Schedule</h2>
+  {{ with .Params.schedule }}
+    {{ range . }}
+      <div class="schedule__item">
+        <p class="schedule__date"> {{ .date }} </p>
+        {{ range .events }}
+        <span> {{ .event }}</span>
+        <span> {{ .time }} </span>
+        <span>
+            <a href="{{ .url }}">
+              {{ .location }}
+            </a>
+        </span>
+        <span>
+          Dress code –
+            <a href="/dress">
+              {{ .dress }}
+            </a>
+        </span>
+        {{ end }}
+      </div>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

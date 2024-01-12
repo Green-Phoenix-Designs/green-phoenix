@@ -1,0 +1,12 @@
+baseURL = 'https://example.com/'
+languageCode = 'en-us'
+title = "Stephen's site template"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10

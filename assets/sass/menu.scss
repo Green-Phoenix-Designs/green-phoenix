@@ -1,0 +1,65 @@
+@mixin bubble {
+    background-color: white;
+    border-radius: 99px;
+    border: 1px solid black;
+    margin: 2em 0;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+}
+
+.menu {
+  display: none;
+  z-index: 999;
+
+  @media (min-width: $breakpoint-menu) {
+    @include bubble;
+    align-items: center;
+    display: flex;
+    font-size: 1.2rem;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  @media (max-width: $breakpoint-menu-down) {
+    .has-active-mobile-nav & {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background-color: white;
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.has-active-mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+
+  @media (min-width: $breakpoint-menu) {
+    overflow: visible;
+    position: static;
+  }
+}
+
+.mobile-nav__close {
+  position: absolute;
+}
+
+.mobile-nav-button {
+  @include bubble;
+  cursor: pointer;
+  margin: 2rem 0;
+  z-index: 997;
+}

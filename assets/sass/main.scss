@@ -1,0 +1,72 @@
+/* RESET */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* My stuff */
+
+@import "variables";
+@import "display";
+@import "menu";
+@import "mobile-nav";
+
+a, a:link {
+  text-decoration: underline;
+}
+
+html {
+  overflow: hidden;
+
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.2rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+button {
+  appearance: none;
+  border: 0;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* section stuff, maybe move it */
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  padding-top: 8rem;
+
+  @media (min-width: $breakpoint-menu) {
+    padding-top: 10rem;
+  }
+}

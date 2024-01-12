@@ -1,0 +1,11 @@
+<div class="menu">
+  {{ range site.Menus.main }}
+    <a href="{{ .URL }}">{{ .Name }}</a>
+  {{ end }}
+</div>
+
+<button
+    class="mobile-nav-button display-mobile"
+    data-role="menu-toggle">
+  Menu
+</button>
