@@ -1,6 +1,6 @@
 baseURL = 'https://example.com/'
 languageCode = 'en-us'
-title = "Stephen's site template"
+title = "Green Phoenix Designs"
 
 [markup.goldmark.renderer]
 unsafe = true
