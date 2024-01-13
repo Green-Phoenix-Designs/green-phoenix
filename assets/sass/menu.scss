@@ -1,14 +1,14 @@
 @mixin bubble {
     background-color: white;
     border-radius: 99px;
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 1rem 2rem;
     position: fixed;
+    right: 2.5rem;
     top: 0;
 }
 
 .menu {
-  grid-area: menu;
   display: none;
   z-index: 999;
 
@@ -17,7 +17,8 @@
     display: flex;
     font-size: 1.2rem;
     gap: 2rem;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   @media (max-width: $breakpoint-menu-down) {
@@ -37,6 +38,24 @@
     }
   }
 }
+
+.menu a {
+  white-space: nowrap;
+
+  &[href*="book"] {
+    background-color: #00AD4D;
+    border-radius: 99px;
+    box-shadow: 0 4px  0 #257611;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
 
 .has-active-mobile-nav {
   position: fixed;

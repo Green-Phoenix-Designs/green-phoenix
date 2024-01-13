@@ -7,6 +7,30 @@ unsafe = true
 
 [menu]
   [[menu.main]]
-    name = 'Home'
-    pageRef = '/'
+    name = 'Book Consultation'
+    pageRef = '/book'
+    weight = 1
+  [[menu.main]]
+    name = 'About'
+    url = '/#about'
     weight = 10
+  [[menu.main]]
+    name = 'Services'
+    url = '/#services'
+    weight = 20
+  [[menu.main]]
+    name = 'Project Gallery'
+    pageRef = '/gallery'
+    weight = 30
+  [[menu.main]]
+    name = 'Testimonials'
+    url = '/#testimonials'
+    weight = 40
+  [[menu.main]]
+    name = 'Newsletter'
+    url = '/#newsletter'
+    weight = 50
+  [[menu.main]]
+    name = 'Careers'
+    pageRef = '/careers'
+    weight = 60

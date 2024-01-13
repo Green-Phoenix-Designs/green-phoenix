@@ -42,7 +42,7 @@ html {
 body {
   width: 100vw;
   height: 100vh;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Itim", serif;
   font-size: 1.2rem;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -58,6 +58,14 @@ button {
   font-size: inherit;
 }
 
+a, a:visited {
+  color: #257611;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 /* section stuff, maybe move it */
 
 .container {
@@ -69,20 +77,16 @@ button {
   @media (min-width: $breakpoint-menu) {
     display: grid;
     gap: 2rem;
-    grid:
-    'title content' min-content
-    'menu  content' auto
-    /1fr   3fr;
+    grid-template-areas: 'side content' 'side content' 'side footer';
+    grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
+    grid-template-rows: auto;
   }
 
   @media (max-width: $breakpoint-menu-down) {
     margin-top: 8rem;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
-    grid:
-    'title' min-content
-    'content' min-content
-    /1fr;
   }
 }
 
@@ -90,6 +94,45 @@ button {
   grid-area: content;
 }
 
+.side {
+  @media (min-width: $breakpoint-menu) {
+    align-self: start;
+    grid-area: side;
+    position: sticky;
+    top: 1rem;
+  }
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero {
+  border-radius: 8px;
+  width: 100%;
+
+  @media (min-width: $breakpoint-menu) {
+    margin-top: -2.5rem;
+  }
+}
+
+.about {
+  border: 2px solid black;
+  gap: 1em;
+  margin: -20ch auto 0;
+  position: relative;
+  width: calc(100% - 4ch);
+  justify-self: center;
+  display: flex;
+  color: white;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 1.4375rem;
+  background: linear-gradient(180deg, rgba(8, 85, 16, 0.65) 24.15%, #085510 80.23%);
+}
+
 .title {
-  grid-area: title;
+  max-width: 300px;
+  justify-self: center;
 }

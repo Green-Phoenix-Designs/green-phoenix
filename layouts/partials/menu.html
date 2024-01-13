@@ -1,6 +1,6 @@
 <div class="menu">
   {{ range site.Menus.main }}
-    <a href="{{ .URL }}">{{ .Name }}</a>
+    <a href="{{ .URL }}" data-role="menu-close">{{ .Name }}</a>
   {{ end }}
 </div>
 
