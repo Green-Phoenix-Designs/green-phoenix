@@ -34,3 +34,7 @@ unsafe = true
     name = 'Careers'
     pageRef = '/careers'
     weight = 60
+  [[menu.main]]
+    name = 'Instagram'
+    url = 'https://www.instagram.com/greenphoenixdesigns'
+    weight = 70
