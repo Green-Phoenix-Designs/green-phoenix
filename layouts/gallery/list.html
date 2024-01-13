@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div style="margin-top: 2rem;">
     {{ range .Params.photos }}
-    <img src={{ .photo }} alt="">
+    <img src={{ .file_url }} alt="">
     <p>{{ .caption }}</p>
     {{ end }}
   </div>
