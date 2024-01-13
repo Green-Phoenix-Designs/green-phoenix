@@ -17,13 +17,16 @@
 
   <title>{{ .Site.Title }}</title>
 </head>
-<body>
+<body class={{ .Title }}>
   <div class="container">
+    {{ partial "title" }}
     {{ partial "menu" }}
 
-    {{ block "main" . }}
-      {{ .Content }}
-    {{ end }}
+    <div class="content">
+      {{ block "main" . }}
+        {{ .Content }}
+      {{ end }}
+    </div>
 
     {{ partial "footer" }}
   </div>

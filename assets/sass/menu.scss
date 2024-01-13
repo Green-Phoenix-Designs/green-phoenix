@@ -2,19 +2,18 @@
     background-color: white;
     border-radius: 99px;
     border: 1px solid black;
-    margin: 2em 0;
     padding: 1rem 2rem;
     position: fixed;
     top: 0;
 }
 
 .menu {
+  grid-area: menu;
   display: none;
   z-index: 999;
 
+  // this is desktop
   @media (min-width: $breakpoint-menu) {
-    @include bubble;
-    align-items: center;
     display: flex;
     font-size: 1.2rem;
     gap: 2rem;
