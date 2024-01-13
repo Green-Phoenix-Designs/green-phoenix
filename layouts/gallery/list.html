@@ -1,8 +1,14 @@
 {{ define "main" }}
-  <div style="margin-top: 2rem;">
+  <div class="gallery">
     {{ range .Params.photos }}
-    <img src={{ .file_url }} alt="">
-    <p>{{ .caption }}</p>
+      <div class="gallery-img">
+        <img src={{ .file_url }} alt="">
+        <p class="caption">{{ .caption }}</p>
+      </div>
+      <div class="gallery-img">
+        <img src={{ .file_url }} alt="">
+        <p class="caption">{{ .caption }}</p>
+      </div>
     {{ end }}
   </div>
 {{ end }}
