@@ -42,19 +42,6 @@
 .menu a {
   white-space: nowrap;
 
-  &[href*="book"] {
-    background-color: #00AD4D;
-    border-radius: 99px;
-    box-shadow: inset 0 -4px 0 #257611;
-    padding: 0.75rem 1.5rem 1rem;
-    color: white;
-    text-decoration: none;
-    border: 2px solid black;
-
-    &:hover {
-      opacity: 0.9;
-    }
-  }
 
   &[href*="instagram"] {
     display: flex;

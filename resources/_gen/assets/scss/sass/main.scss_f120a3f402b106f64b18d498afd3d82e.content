@@ -58,16 +58,6 @@ img {
       font-size: 1.6rem; } }
 .menu a {
   white-space: nowrap; }
-  .menu a[href*="book"] {
-    background-color: #00AD4D;
-    border-radius: 99px;
-    box-shadow: inset 0 -4px 0 #257611;
-    padding: 0.75rem 1.5rem 1rem;
-    color: white;
-    text-decoration: none;
-    border: 2px solid black; }
-    .menu a[href*="book"]:hover {
-      opacity: 0.9; }
   .menu a[href*="instagram"] {
     display: flex;
     gap: 0.25em;
@@ -205,28 +195,26 @@ a, a:visited {
   min-height: 12rem;
   padding-bottom: 4rem; }
 
-.gallery {
-  margin-top: 2rem; }
-  @media (min-width: 800px) {
-    .gallery {
-      columns: 2; } }
 .gallery-img {
   display: flex;
+  flex-direction: column;
   position: relative;
-  margin-bottom: 1rem; }
+  margin-bottom: 2rem; }
   .gallery-img .caption {
-    background-color: black;
-    color: white;
-    position: absolute;
-    bottom: 2ch;
-    left: 2ch;
-    right: 2ch;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    transition: opacity 0.12s;
-    font-size: 0.9rem; }
+    margin: 1em 0; }
   .gallery-img img {
     width: 100%;
     content-fit: contain; }
-  .gallery-img:hover .caption {
-    opacity: 0; }
+
+a[href*="book"] {
+  display: inline-block;
+  background-color: #00AD4D;
+  border-radius: 99px;
+  box-shadow: inset 0 -4px 0 #257611;
+  padding: 0.75rem 1.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  border: 2px solid black;
+  align-self: center; }
+  a[href*="book"]:hover {
+    opacity: 0.9; }
