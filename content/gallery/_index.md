@@ -10,6 +10,8 @@ photos:
     caption: Automated irrigation systems makes gardening a lot easier
   - file_url: /img/image7.jpg
     caption: Multi storied food forest with mature fruit trees
+  - file_url: /img/image43.jpg
+    caption: Tomatos!!!
 ---
 
 # Project gallery
