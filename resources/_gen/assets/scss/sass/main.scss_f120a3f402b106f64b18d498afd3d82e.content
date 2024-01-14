@@ -48,7 +48,7 @@ img {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 3rem;
+      gap: 2rem;
       position: fixed;
       left: 0;
       right: 0;
@@ -106,9 +106,6 @@ img {
   margin: 2rem 0;
   z-index: 997; }
 
-a, a:link {
-  text-decoration: underline; }
-
 html {
   overflow: hidden; }
 
@@ -127,10 +124,12 @@ button {
   border: 0;
   background: none;
   font-family: inherit;
-  font-size: inherit; }
+  font-size: inherit;
+  color: currentcolor; }
 
 a, a:visited {
-  color: #257611; }
+  color: #257611;
+  text-decoration: underline; }
   a:hover, a:visited:hover {
     text-decoration: none; }
 
@@ -155,6 +154,7 @@ a, a:visited {
       flex-direction: column;
       gap: 2rem; } }
 .content {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -183,7 +183,7 @@ a, a:visited {
 .about {
   border: 2px solid black;
   gap: 1em;
-  margin: -20ch auto 0;
+  margin: 0 auto;
   position: relative;
   width: calc(100% - 4ch);
   justify-self: center;
@@ -194,7 +194,9 @@ a, a:visited {
   align-items: flex-start;
   border-radius: 1.4375rem;
   background: linear-gradient(180deg, rgba(8, 85, 16, 0.65) 24.15%, #085510 80.23%); }
-
+  @media (min-width: 800px) {
+    .about {
+      margin-top: -20ch; } }
 .title {
   max-width: 300px;
   justify-self: center; }

@@ -1,5 +1,5 @@
 ---
-title: Project gallery
+title: Projects
 type: gallery
 photos:
   - file_url: /img/image23.jpg

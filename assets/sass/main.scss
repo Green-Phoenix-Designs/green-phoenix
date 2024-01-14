@@ -36,10 +36,6 @@ img {
 @import "menu";
 @import "mobile-nav";
 
-a, a:link {
-  text-decoration: underline;
-}
-
 html {
   overflow: hidden;
 
@@ -62,10 +58,12 @@ button {
   background: none;
   font-family: inherit;
   font-size: inherit;
+  color: currentcolor;
 }
 
 a, a:visited {
   color: #257611;
+  text-decoration: underline;
 
   &:hover {
     text-decoration: none;
@@ -98,6 +96,7 @@ a, a:visited {
 }
 
 .content {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -132,7 +131,12 @@ a, a:visited {
 .about {
   border: 2px solid black;
   gap: 1em;
-  margin: -20ch auto 0;
+  margin: 0 auto;
+
+  @media (min-width: $breakpoint-menu) {
+    margin-top: -20ch;
+  }
+
   position: relative;
   width: calc(100% - 4ch);
   justify-self: center;

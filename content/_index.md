@@ -15,3 +15,9 @@ about: "Green Phoenix Designs is a local sustainable landscaping company working
 * Walls 
 * Paths
 * Cleanup
+
+## Testimonials {#testimonials}
+
+“Working with Green Phoenix Design was the best investment I made this year. Forest was able to redirect water that was causing terrible erosion in my yard into a beautiful dry creek and rain garden. He was also able to repurpose some of the plants I already had into the project. I’m extremely happy with the results and can’t wait to start the next phase of the project.”
+
+ - Fiana Thacker

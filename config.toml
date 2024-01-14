@@ -28,7 +28,7 @@ unsafe = true
     weight = 40
   [[menu.main]]
     name = 'Newsletter'
-    url = '/#newsletter'
+    pageRef = '/newsletter'
     weight = 50
   [[menu.main]]
     name = 'Careers'
