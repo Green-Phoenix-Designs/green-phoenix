@@ -15,5 +15,5 @@ collections:
           name: 'photos'
           widget: 'list'
           fields:
-            - { label: 'File', name: 'file_url', widget: 'file' }
+            - { label: 'Image', name: 'file_url', widget: 'image' }
             - { label: 'Caption', name: 'caption', widget: 'string' }
