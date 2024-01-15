@@ -7,8 +7,10 @@ collections:
   - label: 'Careers'
     name: 'careers'
     folder: 'content/careers'
+    filter: {field: visibleInCMS, value: true}
     create: true
     fields:
       - { label: 'Job Title', name: 'title', widget: 'string' }
       - { label: 'Job description', name: 'body', widget: 'markdown' }
       - { label: 'Link to application form', name: 'apply_link', widget: 'string' }
+      - { name: visibleInCMS, widget: hidden, default: true, i18n: duplicate}

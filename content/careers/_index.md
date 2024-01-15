@@ -1,3 +1,4 @@
 ---
 title: Careers
+visibleInCMS: false
 ---
