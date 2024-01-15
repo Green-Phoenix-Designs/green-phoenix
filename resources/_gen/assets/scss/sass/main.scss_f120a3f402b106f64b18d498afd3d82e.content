@@ -15,6 +15,10 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 ol, ul {
   list-style: none; }
 
+ol {
+  list-style: number;
+  margin-left: 1rem; }
+
 ul {
   list-style: circle;
   margin-left: 1rem; }

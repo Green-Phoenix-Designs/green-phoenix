@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ range .RegularPages }}
+    <h2>{{ .Title }}</h2>
+    {{ .Content }}
+
+    {{ with .Params.apply_link }} <a href={{ . }}>Apply now</a> {{ end }}
+  {{ end }}
+{{ end }}

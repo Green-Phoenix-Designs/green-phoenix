@@ -19,6 +19,11 @@ ol, ul {
   list-style: none;
 }
 
+ol {
+  list-style: number;
+  margin-left: 1rem;
+}
+
 ul {
   list-style: circle;
   margin-left: 1rem;

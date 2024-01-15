@@ -7,13 +7,11 @@ collections:
   - name: 'Pages'
     label: 'pages'
     files:
-      - file: 'content/gallery/_index.md'
-        label: 'Project gallery'
-        name: 'gallery'
+      - label: 'Careers'
+        name: 'careers'
+        folder: 'content/careers'
+        create: true
         fields:
-        - label: 'Photos'
-          name: 'photos'
-          widget: 'list'
-          fields:
-            - { label: 'Image', name: 'file_url', widget: 'image' }
-            - { label: 'Caption', name: 'caption', widget: 'string' }
+          - { label: 'Job Title', name: 'title', widget: 'string' }
+          - { label: 'Job description', name: 'content', widget: 'markdown' }
+          - { label: 'Link to application form', name: 'apply_link', widget: 'string' }

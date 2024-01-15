@@ -4,8 +4,6 @@ about: "Green Phoenix Designs is a local sustainable landscaping company working
 
 ---
 
-![Alt text](/img/hero2.jpg)
-
 ## Services {#services}
 * Patios
 * Raised beds
