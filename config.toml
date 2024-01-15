@@ -19,10 +19,6 @@ unsafe = true
     url = '/#services'
     weight = 20
   [[menu.main]]
-    name = 'Project Gallery'
-    pageRef = '/gallery'
-    weight = 30
-  [[menu.main]]
     name = 'Testimonials'
     url = '/#testimonials'
     weight = 40
