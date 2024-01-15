@@ -10,5 +10,5 @@ collections:
     create: true
     fields:
       - { label: 'Job Title', name: 'title', widget: 'string' }
-      - { label: 'Job description', name: 'content', widget: 'markdown' }
+      - { label: 'Job description', name: 'body', widget: 'markdown' }
       - { label: 'Link to application form', name: 'apply_link', widget: 'string' }
