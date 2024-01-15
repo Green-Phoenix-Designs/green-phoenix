@@ -4,14 +4,11 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'Pages'
-    label: 'pages'
-    files:
-      - label: 'Careers'
-        name: 'careers'
-        folder: 'content/careers'
-        create: true
-        fields:
-          - { label: 'Job Title', name: 'title', widget: 'string' }
-          - { label: 'Job description', name: 'content', widget: 'markdown' }
-          - { label: 'Link to application form', name: 'apply_link', widget: 'string' }
+  - label: 'Careers'
+    name: 'careers'
+    folder: 'content/careers'
+    create: true
+    fields:
+      - { label: 'Job Title', name: 'title', widget: 'string' }
+      - { label: 'Job description', name: 'content', widget: 'markdown' }
+      - { label: 'Link to application form', name: 'apply_link', widget: 'string' }
