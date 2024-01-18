@@ -9,8 +9,7 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
-  font-weight: 100;
-  scroll-behavior: smooth; }
+  font-weight: 100; }
 
 ol, ul {
   list-style: none; }
@@ -94,11 +93,77 @@ img {
   border: 2px solid black;
   padding: 1rem 2rem;
   position: fixed;
-  right: 2.5rem;
+  right: 1.5rem;
   top: 0;
   cursor: pointer;
   margin: 2rem 0;
   z-index: 997; }
+
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em; }
+  .how-it-works .book {
+    margin: 0 0 3em 0;
+    display: inline-block;
+    align-self: center; }
+    @media (min-width: 800px) {
+      .how-it-works .book:first-child {
+        display: none; } }
+    .how-it-works .book:last-child {
+      margin: 4em 0 0 0; }
+  .how-it-works h2, .how-it-works .number {
+    color: #257611; }
+  .how-it-works h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em; }
+  .how-it-works .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 4em; }
+    @media (min-width: 800px) {
+      .how-it-works .grid {
+        display: grid;
+        grid-auto-flow: row dense;
+        gap: 1em;
+        grid-template-columns: repeat(3, 1fr); } }
+  .how-it-works .section {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1 / span 2;
+    gap: 0.5em; }
+    .how-it-works .section:nth-of-type(2) {
+      grid-column-start: 2; }
+    .how-it-works .section:nth-of-type(3) {
+      grid-column: 1 / span 3; }
+    .how-it-works .section p {
+      text-align: center;
+      max-width: 36ch; }
+  .how-it-works .image {
+    grid-column: 3 / span 1;
+    width: 50%;
+    aspect-ratio: 1;
+    align-self: center;
+    outline: 3px solid #257611;
+    outline-offset: 3px;
+    border-radius: 99em; }
+    .how-it-works .image:nth-of-type(2) {
+      grid-column-start: 1; }
+    @media (min-width: 800px) {
+      .how-it-works .image {
+        width: 100%; } }
+  .how-it-works .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 12em;
+    border: 3px solid currentcolor; }
 
 html {
   overflow: hidden; }
@@ -106,7 +171,7 @@ html {
 body {
   width: 100vw;
   height: 100vh;
-  font-family: "Itim", serif;
+  font-family: "Itim", sans-serif;
   font-size: 1.2rem;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -148,12 +213,13 @@ a, a:visited {
       flex-direction: column;
       gap: 2rem; } }
 .content {
-  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   grid-area: content; }
-
+  @media (min-width: 800px) {
+    .content {
+      margin-top: 2rem; } }
 .side {
   display: flex;
   flex-direction: column;
@@ -175,30 +241,35 @@ a, a:visited {
     margin-top: -2.5rem; } }
 
 .about {
-  border: 2px solid black;
   gap: 1em;
-  margin: 0 auto;
+  margin: 0 auto 2em;
   position: relative;
-  width: calc(100% - 4ch);
   justify-self: center;
   display: flex;
-  color: white;
+  color: #136839;
   padding: 2rem;
   flex-direction: column;
   align-items: flex-start;
-  border-radius: 1.4375rem;
-  background: linear-gradient(180deg, rgba(8, 85, 16, 0.65) 24.15%, #085510 80.23%); }
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(223, 247, 233, 0.87) 27.16%, #DFF7E9 71.45%); }
+  .about h2 {
+    padding-top: 4rem;
+    margin-top: -4rem; }
   @media (min-width: 800px) {
     .about {
-      margin-top: -20ch; } }
+      margin-top: -32ch;
+      margin-bottom: 10ch;
+      width: calc(100% - 4ch);
+      border-radius: 14px; } }
 .title {
-  max-width: 300px;
   justify-self: center; }
 
 .footer {
   min-height: 12rem;
   padding-bottom: 4rem; }
-
+  @media (max-width: 799px) {
+    .footer p {
+      margin: 0 1rem; } }
 .gallery-img {
   display: flex;
   flex-direction: column;
@@ -222,3 +293,13 @@ a[href*="book"] {
   align-self: center; }
   a[href*="book"]:hover {
     opacity: 0.9; }
+
+.services h2 {
+  font-family: "Handlee", serif;
+  color: #00AD4D;
+  font-size: 2.5em;
+  line-height: 0.8;
+  margin-bottom: -0.2em; }
+
+.services p {
+  margin-bottom: 2em; }

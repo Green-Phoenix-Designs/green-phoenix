@@ -11,17 +11,13 @@ unsafe = true
     pageRef = '/book'
     weight = 1
   [[menu.main]]
-    name = 'About'
+    name = 'About Us'
     url = '/#about'
     weight = 10
   [[menu.main]]
     name = 'Services'
-    url = '/#services'
+    pageRef = '/services'
     weight = 20
-  [[menu.main]]
-    name = 'Testimonials'
-    url = '/#testimonials'
-    weight = 40
   [[menu.main]]
     name = 'Newsletter'
     pageRef = '/newsletter'
@@ -31,6 +27,6 @@ unsafe = true
     pageRef = '/careers'
     weight = 60
   [[menu.main]]
-    name = 'Instagram'
-    url = 'https://www.instagram.com/greenphoenixdesigns'
+    name = 'Contact'
+    pageRef = '/contact'
     weight = 70

@@ -1,0 +1,100 @@
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+
+  .book {
+    margin: 0 0 3em 0;
+    display: inline-block;
+    align-self: center;
+
+    &:first-child {
+      @media (min-width: $breakpoint-menu) {
+        display: none;
+      }
+    }
+
+    &:last-child {
+      margin: 4em 0 0 0;
+    }
+  }
+
+  margin-bottom: 2em;
+
+  h2, .number {
+    color: #257611;
+  }
+
+  h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+
+    @media (min-width: $breakpoint-menu) {
+      display: grid;
+      grid-auto-flow: row dense;
+      gap: 1em;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .section {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1 / span 2;
+    gap: 0.5em;
+
+    &:nth-of-type(2) {
+      grid-column-start: 2;
+    }
+
+    &:nth-of-type(3) {
+      grid-column: 1 / span 3;
+    }
+
+    p {
+      text-align: center;
+      max-width: 36ch;
+    }
+  }
+
+  .image {
+    grid-column: 3 / span 1;
+
+    width: 50%;
+    aspect-ratio: 1;
+    align-self: center;
+    outline: 3px solid #257611;
+    outline-offset: 3px;
+
+
+    &:nth-of-type(2) {
+      grid-column-start: 1;
+    }
+
+    @media (min-width: $breakpoint-menu) {
+      width: 100%;
+    }
+
+
+    border-radius: 99em;
+  }
+
+  .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 12em;
+    border: 3px solid currentcolor;
+  }
+}

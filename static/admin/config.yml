@@ -4,6 +4,13 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
+  - label: 'Services'
+    name: 'services'
+    file: 'content/services.md'
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Photo', name: 'photo_url', widget: 'image' }
   - label: 'Careers'
     name: 'careers'
     folder: 'content/careers'
