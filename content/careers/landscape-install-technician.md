@@ -1,6 +1,6 @@
 ---
 title: Landscape Install Technician $20/hr (Monday - Wednesday)
-apply_link: link
+apply_link: https://form.jotform.com/240123953585155
 visibleInCMS: true
 ---
 
