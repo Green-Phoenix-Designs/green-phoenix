@@ -1,11 +1,11 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
 
-  {{ range .Params.services }}
-    {{ with .photo_url }} <img src={{ . }} alt=""> {{ end }}
-    <h2>{{ .name }}</h2>
+  {{ range sort .RegularPages "Params.order" }}
+    {{ with .Params.photo_url }} <img src={{ . }} alt=""> {{ end }}
+    <h2>{{ .Title }}</h2>
     <p>
-      {{ .description }}
+      {{ .Params.description }}
     </p>
   {{ end }}
 {{ end }}
