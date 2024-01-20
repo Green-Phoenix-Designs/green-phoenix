@@ -4,8 +4,9 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - pages:
-    - files:
+  - label: 'Pages'
+    name: 'pages'
+    files:
       - label: 'Homepage'
         name: 'home'
         file: 'content/_index.md'
