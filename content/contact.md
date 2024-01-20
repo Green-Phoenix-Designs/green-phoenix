@@ -1,7 +1,6 @@
 ---
 title: Contact us
 ---
+By email: 
 
-By email: Email
-
-By phone: 555-555-5555
+By phone: 442-217-4613
