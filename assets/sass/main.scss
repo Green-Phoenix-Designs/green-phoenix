@@ -172,12 +172,6 @@ a, a:visited {
 .footer {
   min-height: 12rem;
   padding-bottom: 4rem;
-
-  @media (max-width: $breakpoint-menu-down) {
-    p {
-      margin: 0 1rem;
-    }
-  }
 }
 
 .gallery {

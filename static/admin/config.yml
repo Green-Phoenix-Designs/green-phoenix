@@ -17,6 +17,11 @@ collections:
         file: 'content/contact.md'
         fields:
           - { label: 'Page content', name: 'body', widget: 'markdown' }
+      - label: 'Terms and conditions'
+        name: 'termsandcondition'
+        file: 'content/termsandconditions.md'
+        fields:
+          - { label: 'Page content', name: 'body', widget: 'markdown' }
   - label: 'Services'
     name: 'services'
     folder: 'content/services'

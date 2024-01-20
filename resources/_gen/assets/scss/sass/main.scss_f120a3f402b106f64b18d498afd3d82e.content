@@ -267,9 +267,7 @@ a, a:visited {
 .footer {
   min-height: 12rem;
   padding-bottom: 4rem; }
-  @media (max-width: 799px) {
-    .footer p {
-      margin: 0 1rem; } }
+
 .gallery-img {
   display: flex;
   flex-direction: column;
