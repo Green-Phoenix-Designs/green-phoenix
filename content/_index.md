@@ -1,13 +1,14 @@
 ---
 title: home
 how_it_works:
-  - description: Book a consultation that lasts one hour (Thursday through Saturday)
+  - description: Book a consultation that lasts one hour with a local permaculture
+      professional. We come to your property to talk landscaping. ☕
     image: /img/screen-shot-2024-01-24-at-4.27.00-pm.png
   - description: You will receive a personalized permaculture design for the
-      proposed projects within approximately one week.
+      proposed projects within approximately one week. ✏️
     image: /img/screen-shot-2024-01-24-at-4.25.12-pm.png
   - description: The consultation fee ($125) goes towards the total project cost if
-      you schedule within 30 days.
+      you schedule an installation within 30 days. 🍾
     image: /img/image15.jpg
 ---
 
