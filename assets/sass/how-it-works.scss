@@ -61,7 +61,6 @@
     align-self: center;
     display: flex;
     flex-direction: column;
-    flex-basis: 66%;
     flex-grow: 1;
     align-items: center;
     grid-column: 1 / span 2;
@@ -80,10 +79,12 @@
     align-self: center;
     outline: 3px solid #257611;
     outline-offset: 3px;
-    flex-basis: 33%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    object-fit: cover;
 
     @media (min-width: $breakpoint-menu) {
-      width: 100%;
+      width: 33%;
     }
   }
 
