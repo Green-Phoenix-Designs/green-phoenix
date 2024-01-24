@@ -1,11 +1,14 @@
 ---
-title: "home"
+title: home
 how_it_works:
-  - description: Book a $125 Consultation that lasts one hour (Thursday through Saturday)!
-    image: "/img/consult.jpg"
-  - description: You will receive a personalized design for the proposed projects within approximately one week.
-    image: "/img/design.jpg"
-  - description: The $125 consultation fee goes towards the total project cost if you schedule within 30 days.
+  - description: Book a consultation that lasts one hour (Thursday through Saturday)
+    image: /img/screen-shot-2024-01-24-at-4.27.00-pm.png
+  - description: You will receive a personalized permaculture design for the
+      proposed projects within approximately one week.
+    image: /img/screen-shot-2024-01-24-at-4.25.12-pm.png
+  - description: The consultation fee ($125) goes towards the total project cost if
+      you schedule within 30 days.
+    image: /img/image15.jpg
 ---
 
 ## About us {#about}
