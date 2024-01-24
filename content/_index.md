@@ -4,12 +4,12 @@ how_it_works:
   - description: Book a consultation that lasts one hour with a local permaculture
       professional. We talk landscaping, solve problems, and cast visions. ☕
     image: /img/screen-shot-2024-01-24-at-4.27.00-pm.png
-  - description: You will receive a personalized permaculture design for the
+  - description: You will receive a personalized phased permaculture design for the
       proposed projects within approximately one week. ✏️
     image: /img/screen-shot-2024-01-24-at-4.25.12-pm.png
-  - description: The consultation fee ($125) goes towards the total project cost if
-      you schedule an installation within 30 days. 🍾
-    image: /img/image15.jpg
+  - description: Choose your projects and schedule work. The consultation fee ($125)
+      goes to the total project cost if you book an install within 30 days. 🍾
+    image: /img/arborflagstonewalk.jpeg
 ---
 
 ## About us {#about}
