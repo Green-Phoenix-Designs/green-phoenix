@@ -16,6 +16,17 @@
   {{ $style := $sass | resources.ToCSS }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3CBM93EQHG">
+  </script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3CBM93EQHG');
+  </script>
+
   {{ $built := resources.Get "scripts/main.js" }}
   <script type="text/javascript" src="{{ $built.RelPermalink }}" defer></script>
 
