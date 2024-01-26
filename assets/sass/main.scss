@@ -143,6 +143,9 @@ a, a:visited {
   margin: 0 auto 2em;
 
   h2 {
+    color: #00AD4D;
+    font-family: "Handlee", serif;
+    font-size: 2.5em;
     padding-top: 4rem;
     margin-top: -4rem;
   }
@@ -217,11 +220,12 @@ a[href*="book"] {
 
 .service-item {
   padding: 1em;
-  border: 3px solid #00AD4D;
-  border-radius: 8px;
   background-color: white;
   margin: -4em 1em 0em;
   max-width: 46ch;
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(223, 247, 233, 0.87) 8%, #DFF7E9 30%);
+  color: #136839;
 
   h2 {
     font-family: "Handlee", serif;
