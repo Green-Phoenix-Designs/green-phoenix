@@ -1,0 +1,13 @@
+{{ with .GetPage "/services" }}
+  <h1>{{ .Title }}</h1>
+
+  {{ range sort .RegularPages "Params.order" }}
+    {{ with .Params.photo_url }} <img src={{ . }} alt=""> {{ end }}
+    <div class="service-item">
+      <h2>{{ .Title }}</h2>
+      <p>
+        {{ .Params.description }}
+      </p>
+    </div>
+  {{ end }}
+{{ end }}

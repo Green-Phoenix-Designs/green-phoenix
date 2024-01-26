@@ -297,12 +297,14 @@ a[href*="book"] {
   a[href*="book"]:hover {
     opacity: 0.9; }
 
-.services h2 {
-  font-family: "Handlee", serif;
-  color: #00AD4D;
-  font-size: 2.5em;
-  line-height: 0.8;
-  margin-bottom: -0.2em; }
-
-.services p {
-  margin-bottom: 2em; }
+.service-item {
+  padding: 1em;
+  border: 3px solid #00AD4D;
+  border-radius: 8px;
+  background-color: white;
+  margin: -4em 1em 0em;
+  max-width: 46ch; }
+  .service-item h2 {
+    font-family: "Handlee", serif;
+    color: #00AD4D;
+    font-size: 2.5em; }
