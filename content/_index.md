@@ -8,7 +8,8 @@ how_it_works:
       proposed projects within approximately one week. ✏️
     image: /img/screen-shot-2024-01-24-at-4.25.12-pm.png
   - description: Choose your projects and schedule work. The consultation fee ($125)
-      goes to the total project cost if you book an install within 30 days. 🥂
+      goes to the total project cost if you book an installation within 30 days.
+      🥂
     image: /img/arbors.jpg
 ---
 ## About us {#about}
