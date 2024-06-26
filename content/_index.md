@@ -21,4 +21,4 @@ do. We tap local experts in native plants, stone building, and water management.
 Our team will work with you to shape a landscape that will be enjoyed for
 generations to come.
 
-\-Forest Lee, Owner
+**\-Forest Lee, Owner**
