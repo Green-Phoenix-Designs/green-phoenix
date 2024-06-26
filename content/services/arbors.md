@@ -2,7 +2,7 @@
 title: Arbors
 description: We custom build arbors for your outdoor space to provide shade,
   plant trellising, and an element of fantasy.
-order: 8
+order: 10
 photo_url: /img/arbors.jpg
 visibleInCMS: true
 ---
