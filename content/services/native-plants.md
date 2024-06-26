@@ -1,7 +1,8 @@
 ---
 title: Native Plants
-order: 3
-description: We encourage the planting of natives into the landscape to re-establish habitat and connect us back to this place. 
+description: We encourage the planting of natives in the landscape to
+  re-establish habitat and connect us back to this place.
+order: 6
 photo_url: /img/native-plants.jpg
 visibleInCMS: true
 ---
