@@ -3,7 +3,7 @@ title: home
 how_it_works:
   - description: Book a consultation that lasts one hour with a local permaculture
       professional. We talk landscaping, solve problems, and cast visions. ☕
-    image: /img/screen-shot-2024-01-24-at-4.27.00-pm.png
+    image: /img/consult.jpg
   - description: You will receive a personalized phased permaculture design for the
       proposed projects within approximately one week. ✏️
     image: /img/screen-shot-2024-01-24-at-4.25.12-pm.png
