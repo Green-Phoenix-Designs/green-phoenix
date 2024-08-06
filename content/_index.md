@@ -1,5 +1,6 @@
 ---
 title: home
+hero_image: /img/hero.jpg
 how_it_works:
   - description: Book a consultation that lasts one hour with a local permaculture
       professional. We talk landscaping, solve problems, and cast visions. ☕

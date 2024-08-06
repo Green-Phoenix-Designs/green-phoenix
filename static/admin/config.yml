@@ -12,6 +12,7 @@ collections:
         file: 'content/_index.md'
         fields:
           - { label: 'About Us', name: 'body', widget: 'markdown' }
+          - { label: 'Hero image', name: 'hero_image', widget: 'image' }
           - label: 'How it works'
             name: 'how_it_works'
             widget: 'list'

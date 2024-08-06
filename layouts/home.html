@@ -1,5 +1,7 @@
 {{ define "main" }}
-  <img src="/img/hero.jpg" class="hero" alt="">
+  {{ with .Params.hero_image }}
+    <img src={{ . }} class="hero" alt="">
+  {{ end }}
   <div class="about">
     {{ .Content }}
   </div>
