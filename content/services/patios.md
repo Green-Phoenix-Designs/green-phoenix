@@ -5,6 +5,6 @@ description: We create permeable hardscapes that compliment the home and invite
   materials and styles such as flagstone, pavers, cut natural stone, or chipped
   stone.
 order: 1
-photo_url: /img/flagstonepatio.jpg
+photo_url: /img/flagstonepatio2.jpg
 visibleInCMS: true
 ---
