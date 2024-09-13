@@ -23,3 +23,5 @@ Our team will work with you to shape a landscape that will be enjoyed for
 generations to come.
 
 **\-Forest Lee, Owner**
+
+Forest has over ten years of professional permaculture experience across multiple fields. He has two Permaculture Design Certificates from the Bullock's Permaculture Homestead in Washington state. He has helped develop innovative permaculture building practices for several local landscaping firms in the Atlanta area, such as Humble Harvest, Community Foodscapes, and Shades of Green. Prior to a career in sustainability, Forest worked in the world of video and design for over ten years.
