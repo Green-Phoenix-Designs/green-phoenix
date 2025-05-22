@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Itim&display=swap" rel="stylesheet">
 
   {{ $sass := resources.Get "sass/main.scss" }}
-  {{ $style := $sass | resources.ToCSS }}
+  {{ $style := $sass | css.Sass }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
   <!-- Google tag (gtag.js) -->
