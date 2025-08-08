@@ -21,6 +21,6 @@ enjoyable outdoor spaces. We strive for quality and innovation in all that we
 do. Our team employs local experts in native plants, natural building, and rainwater drainage/capture. We will work with you to shape a landscape that will be enjoyed for
 generations to come.
 
-**\-Forest Lee, Owner**
+**\-Forest Lee, Owner, Founder**
 
 Forest has over ten years of professional permaculture experience across multiple fields. He has two Permaculture Design Certificates from the Bullock's Permaculture Homestead in Washington state. He has helped develop innovative permaculture building practices for several local landscaping firms in the Atlanta area. Prior to a career in sustainability, Forest worked in the world of video and design for over ten years.
