@@ -4,14 +4,14 @@ hero_image: /img/img_1832.jpeg
 how_it_works:
   - description: Book a consultation that lasts one hour with a local permaculture
       professional. We talk landscaping, solve problems, and cast visions. ☕
-    image: /img/consult.jpg
+    image: /img/387da633-ca57-4d34-91aa-bb146c6c7b28.jpeg
   - description: You will receive a personalized phased permaculture design for the
       proposed projects within approximately one week. ✏️
-    image: /img/marcusbrookssocial.jpg
+    image: /img/img_1554.jpeg
   - description: Choose your projects and schedule work. The consultation fee ($150)
       goes to the total project cost if you book an installation within 30 days.
       🥂
-    image: /img/vego-beds.jpg
+    image: /img/img_7554.jpeg
 ---
 ## About us {#about}
 
