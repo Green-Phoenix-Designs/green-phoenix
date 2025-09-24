@@ -8,9 +8,9 @@ how_it_works:
   - description: You will receive a personalized phased permaculture design for the
       proposed projects within approximately one week. ✏️
     image: /img/img_1554.jpeg
-  - description: Choose your projects and schedule work. The consultation fee ($150)
-      goes to the total project cost if you book an installation within 30 days.
-      🥂
+  - description: Choose your projects and schedule work. The consultation fee ($75
+      Sale!) goes to the total project cost if you book an installation within
+      30 days. 🥂
     image: /img/img_7554.jpeg
 ---
 ## About us {#about}
