@@ -1,11 +1,12 @@
 ---
 title: Contact us
 ---
+
 By email: info@greenphoenixdesigns.com
 
 By phone: 833-598-4176
 
-Hours: 
+Hours:
 
 Monday 8 AM–4 PM
 
