@@ -1,7 +1,4 @@
 ---
 title: Sign up for our newsletter
 ---
-
-<div style="width: 100%; overflow: hidden; border-radius: 16px; margin-top: 2rem; overflow: hidden;">
-<script type="text/javascript" src="https://form.jotform.com/jsform/240034897085158"></script>
-</div>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBUH5_ztllJiJ3Qh3kivA2sfFnxLgvL6X_fCkGPZSnO0dX7Q/viewform?embedded=true" width="640" height="586" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
