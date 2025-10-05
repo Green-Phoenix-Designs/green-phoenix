@@ -1,6 +1,6 @@
 ---
 title: Landscape Install Technician $20/hr (Monday - Wednesday)
-apply_link: https://form.jotform.com/240123953585155
+apply_link: https://docs.google.com/forms/d/e/1FAIpQLScCTiBD7hpVa-lan5e5G3fp6Sfa_bU4aeds6q-r0WWGVkUg-A/viewform?usp=sharing&ouid=118292984497830389358
 visibleInCMS: true
 ---
 Have you ever said to yourself, **“I’d love to spend more time outside, work more with my hands, and learn more about permaculture.”** You are in luck. Stop doomscrolling and start applying. We are hiring new crew members to join the team this season for some awesome permaculture projects. We will be working mostly within the Atlanta perimeter to create edible/native/ornamental gardens that utilize captured rainwater and natural soil building techniques. We also create a wide range of hardscapes such as patios, paths, creeks, walls, and light carpentry. It is work which is demanding yet rewarding. We are a 100% inclusive environment where folks are encouraged to always bring a beginner’s mind to each day of work. If you meet the criterion below, please apply.
