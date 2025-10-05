@@ -50,3 +50,10 @@ collections:
       - { label: 'Job description', name: 'body', widget: 'markdown' }
       - { label: 'Link to application form', name: 'apply_link', widget: 'string' }
       - { name: visibleInCMS, widget: hidden, default: true, i18n: duplicate}
+  - label: 'Newsletter'
+    name: 'newsletter'
+    folder: 'content/newsletter'
+    filter: {field: visibleInCMS, value: true}
+    file: 'content/newsletter.md'
+    fields:
+      - { label: 'Page content', name: 'body', widget: 'markdown' }
