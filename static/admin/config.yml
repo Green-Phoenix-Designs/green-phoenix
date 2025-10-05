@@ -19,6 +19,11 @@ collections:
             fields:
               - { label: 'Description', name: 'description', widget: 'string' }
               - { label: 'Image', name: 'image', widget: 'image' }
+      - label: 'Booking page'
+        name: 'booking'
+        file: 'content/book.md'
+        fields:
+          - { label: 'Page content', name: 'body', widget: 'markdown' }
       - label: 'Newsletter page'
         name: 'newsletter'
         file: 'content/newsletter.md'
