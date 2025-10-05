@@ -19,6 +19,16 @@ collections:
             fields:
               - { label: 'Description', name: 'description', widget: 'string' }
               - { label: 'Image', name: 'image', widget: 'image' }
+      - label: 'Newsletter page'
+        name: 'newsletter'
+        file: 'content/newsletter.md'
+        fields:
+          - { label: 'Page content', name: 'body', widget: 'markdown' }
+      - label: 'Follow-up page'
+        name: 'followup'
+        file: 'content/followup.md'
+        fields:
+          - { label: 'Page content', name: 'body', widget: 'markdown' }
       - label: 'Contact page'
         name: 'contact'
         file: 'content/contact.md'
@@ -50,17 +60,3 @@ collections:
       - { label: 'Job description', name: 'body', widget: 'markdown' }
       - { label: 'Link to application form', name: 'apply_link', widget: 'string' }
       - { name: visibleInCMS, widget: hidden, default: true, i18n: duplicate}
-  - label: 'Newsletter'
-    name: 'newsletter'
-    folder: 'content/newsletter'
-    filter: {field: visibleInCMS, value: true}
-    file: 'content/newsletter.md'
-    fields:
-      - { label: 'Page content', name: 'body', widget: 'markdown' }
-  - label: 'Followup'
-    name: 'followup'
-    folder: 'content/followup'
-    filter: {field: visibleInCMS, value: true}
-    file: 'content/followup.md'
-    fields:
-      - { label: 'Page content', name: 'body', widget: 'markdown' }
