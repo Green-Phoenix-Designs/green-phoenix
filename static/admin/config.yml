@@ -57,3 +57,10 @@ collections:
     file: 'content/newsletter.md'
     fields:
       - { label: 'Page content', name: 'body', widget: 'markdown' }
+  - label: 'Followup'
+    name: 'followup'
+    folder: 'content/followup'
+    filter: {field: visibleInCMS, value: true}
+    file: 'content/followup.md'
+    fields:
+      - { label: 'Page content', name: 'body', widget: 'markdown' }
