@@ -1,9 +1,10 @@
 ---
-title: Lighting
-description: We will create a lighting plan to make your landscaping shine.
-  Utilizing high quality LED systems, we can create curb appeal and add a bit of
-  drama where needed. We will work with your landscape to show its best side.
+title: Maintenance + Coaching
+description: We help you sustain your space to maintain access, abundance, and
+  appeal. A custom seasonal maintenance plan will include visits for key moments
+  in the year. We invite you to join alongside us to learn our methods hands-on,
+  in your space.
 order: 11
-photo_url: /img/lighting2.jpg
+photo_url: /img/img_7553.jpeg
 visibleInCMS: true
 ---
