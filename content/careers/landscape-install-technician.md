@@ -1,5 +1,5 @@
 ---
-title: Landscape Install Technician $20/hr (Monday - Wednesday)
+title: Landscape Install Technician $20/hr (Monday - Wednesday, Contractor)
 apply_link: https://docs.google.com/forms/d/e/1FAIpQLScCTiBD7hpVa-lan5e5G3fp6Sfa_bU4aeds6q-r0WWGVkUg-A/viewform?usp=sharing&ouid=118292984497830389358
 visibleInCMS: true
 ---
@@ -18,3 +18,5 @@ Have you ever said to yourself, **“I’d love to spend more time outside, work
    * Construction
    * Plumbing / Drainage
    * Degree in related field
+
+This is not an employee position. Independent contractors only.
