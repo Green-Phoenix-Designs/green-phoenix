@@ -287,7 +287,7 @@ a, a:visited {
     width: 100%;
     content-fit: contain; }
 
-a[href*="book"] {
+a[href*="square"] {
   display: inline-block;
   background-color: #00AD4D;
   border-radius: 99px;
@@ -297,7 +297,7 @@ a[href*="book"] {
   text-decoration: none;
   border: 2px solid black;
   align-self: center; }
-  a[href*="book"]:hover {
+  a[href*="square"]:hover {
     opacity: 0.9; }
 
 .service-item {

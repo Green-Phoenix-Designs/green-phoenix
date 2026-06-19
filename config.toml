@@ -2,13 +2,16 @@ baseURL = 'https://example.com/'
 languageCode = 'en-us'
 title = "Green Phoenix Designs"
 
+[params]
+  bookURL = 'https://book.squareup.com/appointments/01urh26tbu02ur/location/LNADDS0WZHSAW/services/2ZNPFJBWV3B226ZI53NLNOCA'
+
 [markup.goldmark.renderer]
 unsafe = true
 
 [menu]
   [[menu.main]]
     name = 'Book Consultation'
-    pageRef = '/book'
+    url = 'https://book.squareup.com/appointments/01urh26tbu02ur/location/LNADDS0WZHSAW/services/2ZNPFJBWV3B226ZI53NLNOCA'
     weight = 1
   [[menu.main]]
     name = 'About Us'
