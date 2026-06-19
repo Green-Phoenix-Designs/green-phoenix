@@ -4,6 +4,7 @@ title = "Green Phoenix Designs"
 
 [params]
   bookURL = 'https://book.squareup.com/appointments/01urh26tbu02ur/location/LNADDS0WZHSAW/services/2ZNPFJBWV3B226ZI53NLNOCA'
+  followupURL = 'https://book.squareup.com/appointments/xz89zihwrz016u/location/LNADDS0WZHSAW/services/OZMO6EQE2QQ2DEKB3Z4HBO3C'
 
 [markup.goldmark.renderer]
 unsafe = true
