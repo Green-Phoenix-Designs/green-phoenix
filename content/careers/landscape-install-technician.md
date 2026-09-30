@@ -19,4 +19,4 @@ Have you ever said to yourself, **“I’d love to spend more time outside, work
    * Plumbing / Drainage
    * Degree in related field
 
-This is not an employee position. Independent contractors only.
+This is an employee position.
